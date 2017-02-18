@@ -5,7 +5,7 @@
   <link rel="shorcut icon" type="image/x-icon" class="img" href="../imagenes/favicon.ico">
   <title>Formulario Basico con html y css</title>
  </head>
-
+ esta es la segunda modificacion al proyecto
  <body>
   <div class="contenedor">
    <fieldset><legend>Formulario</legend>
