@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html> Mi primer proyecto
+<html> este es una prueba creando una rama y heredando la paginas y modificaciones desde Master
+ <head>
+  <link rel="stylesheet" type="text/css" href="">
+  <link rel="shorcut icon" type="image/x-icon" class="img" href="../imagenes/favicon.ico">
+  <title>Formulario Basico con html y css</title>
+ </head>
+ esta es la segunda modificacion al proyecto
+ <body>
+  <div class="contenedor">
+   <fieldset><legend>Formulario</legend>
+    <form>
+     <!---->
+     <label for="nombre">Nombre:</label>
+     <!---->
+     <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+
+     <label for="email">Email:</label>
+
+     <input type="email" id="email" name="email" placeholder="Escribe tu email">
+
+     <label for="mensaje">mensaje:</label>
+     <!---->
+     <textarea type="mensaje" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+
+     <input type="submit" value="Enviar">  
+    </form>
+   </fieldset> 
+  </div> 
+ </body>
+</html>
